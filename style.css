@@ -197,6 +197,11 @@ background: #4ccfc1;
 #products {
     padding: 22x 0;
 }
+
+.img   {
+max-height: 250px;
+}
+
 @media (max-width: 1025px) {
     #header-top {
         flex-direction: column;
