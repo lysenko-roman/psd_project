@@ -199,9 +199,22 @@ background: #4ccfc1;
 }
 
 .img   {
-max-height: 250px;
+min-height: 134px;
 }
 
+#footer-top-bg {
+    background: #3cc395;
+}
+
+#footer-top {
+    justify-content: space-between;
+    color: black;
+}
+
+#footer-bottom {
+    background: aquamarine;
+    text-align: center;
+}
 @media (max-width: 1025px) {
     #header-top {
         flex-direction: column;
