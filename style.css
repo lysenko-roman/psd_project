@@ -195,11 +195,11 @@ background: #4ccfc1;
 }
 
 #products {
-    padding: 22x 0;
+    padding: 22px 0;
 }
 
 .img   {
-min-height: 134px;
+min-height: 138px;
 }
 
 #footer-top-bg {
@@ -208,13 +208,29 @@ min-height: 134px;
 
 #footer-top {
     justify-content: space-between;
-    color: black;
+    padding: 35px 15px 20px 15px;
+    
+}
+
+#footer-top h2 {
+    margin-top: 0; 
+    color: #fff;
+}
+
+#footer-top a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+    display: block;
 }
 
 #footer-bottom {
-    background: aquamarine;
+    background: #2da89b;
     text-align: center;
+    padding: 15px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
 }
+
 @media (max-width: 1025px) {
     #header-top {
         flex-direction: column;
@@ -267,6 +283,15 @@ min-height: 134px;
     #header-menu ul li a {
         padding: 5px 15px !important;
         display: block; 
+    }
+
+    #footer-top .nav {
+        margin: 15px;
+
+    }
+
+    #footer-top {
+        justify-content: center
     }
 
 }
